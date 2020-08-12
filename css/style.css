@@ -1,0 +1,22 @@
+
+p{
+  color:#000000;
+}
+header{
+  background-color: #e3c100;
+  margin: 10px 20px;
+  border: 2px solid #0000ff;
+  padding: 10px;
+}
+main{
+  background-color: #a6ae24;
+  margin: 10px 20px;
+  border: 2px solid #00ff00;
+  padding: 20px;
+}
+footer{
+  background-color: #75c1e3;
+  margin: 10px 20px;
+  border: 2px solid #00ff00;
+  padding: 20px;
+}
