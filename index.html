@@ -6,23 +6,18 @@
   <!-- <link rel="stylesheet" href="css/w3.css"> -->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/86dfa14b20.js" crossorigin="anonymous"></script>
 
   <title>Oyama Engineering Note</title>
 
 </head>
 <body>
-
   <div class="sidenav">
-    <button class="dropdown-btn">Engineering Data
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-container">
-      <a href="#eng_performance">Performance</a>
-      <a href="#eng_structure">Structure</a>
-      <a href="#eng_system">System</a>
-    </div>
 
-    <button class="dropdown-btn">Utilities
+    <a href="#"><i class="fa fa-home" aria-hidden="true"></i>&nbsp&nbsp Home</a>
+
+    <!-- menu utilities*******************************************************-->
+    <button class="dropdown-btn"><i class="fa fa-cogs" aria-hidden="true"></i>&nbsp Utilities
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-container">
@@ -32,18 +27,76 @@
       <a href="#utilities4">Utilities 4</a>
     </div>
 
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    <!-- menu engineering data **********************************************-->
+    <button class="dropdown-btn"><i class="fa fa-fighter-jet" aria-hidden="true"></i>&nbsp Engineering Data
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+      <a href="#eng_performance">Performance</a>
+      <a href="#eng_structure">Structure</a>
+      <a href="#eng_system">System</a>
+    </div>
+
+    <a href="#contact"><i class="fa fa-user" aria-hidden="true"></i>&nbsp&nbsp Contact</a>
+
+    <a href="#about"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp&nbsp About</p></a>
+
+
+    <div id="DigitalCLOCK" class="clock" onload="showTime()"></div>
+    <script  src="js/function.js"></script>
+
   </div>
+
+
+
+<!-- *********************************************************************** -->
 
 <div class="main">
   <!-- <div class="w3-light-gray w3-border-top w3-border-bottom w3-border-purple"> -->
-  <div class="w3-container">
-      <h2>Oyama Engineering Note</h2>
+  <div class="w3-container w3-row titlebar">
+    <!-- <div class="titlebar"> -->
+      <div class="w3-col l12 m12 w3-height-center  w3-left-align">
+        <span class="category">
+            Oyama Engineering Note
+        </span>
+      </div>
+      <!-- <div class="w3-col l9 m8 w3-right-align">
+        <span class="datetime">
+        </span>
+      </div> -->
+    <!-- </div> -->
   </div>
+
+
+  <!-- <div class="w3-container">
+      <h2>Oyama Engineering Note</h2>
+  </div> -->
+
   <p>This is Oyama's engineering note.</p>
   <p><br /></p>
   <p><br /></p>
+
+
+  <!--  *******************************************************************-->
+  <section id="utilities1" class="section w3-card-2">
+      <header class="w3-container w3-light-grey">
+        <h3>UTILITIES</h3>
+      </header>
+        <div class="w3-container">
+          <p style="color:gray;">Engineering</p>
+          <ul>
+            <li><a href="https://www.unitconverters.net/" target="_blank">Unit Converter</a></li>
+          </ul>
+          <hr>
+          <p style="color:gray;">Documents</p>
+          <ul>
+            <li><a href="https://quicksearch.dla.mil/qsSearch.aspx" target="_blank">MIL-SPEC Quick Search</a></li>
+            <li><a href="http://everyspec.com/" target="_blank">MIL-SPEC Search - EverySpec</a></li>
+          </ul>
+      </div>
+      <!-- <button class="w3-button w3-block w3-dark-grey">+ Connect</button> -->
+  </section>
+  <!--  *******************************************************************-->
 
   <!--  *******************************************************************-->
   <section id="eng_performance" class="section w3-card-2">
@@ -99,26 +152,7 @@
 
 
 
-    <!--  *******************************************************************-->
-    <section id="utilities1" class="section w3-card-2">
-        <header class="w3-container w3-light-grey">
-          <h3>UTILITIES</h3>
-        </header>
-          <div class="w3-container">
-            <p style="color:gray;">Engineering</p>
-            <ul>
-              <li><a href="https://www.unitconverters.net/" target="_blank">Unit Converter</a></li>
-            </ul>
-            <hr>
-            <p style="color:gray;">Documents</p>
-            <ul>
-              <li><a href="https://quicksearch.dla.mil/qsSearch.aspx" target="_blank">MIL-SPEC Quick Search</a></li>
-              <li><a href="http://everyspec.com/" target="_blank">MIL-SPEC Search - EverySpec</a></li>
-            </ul>
-        </div>
-        <!-- <button class="w3-button w3-block w3-dark-grey">+ Connect</button> -->
-    </section>
-    <!--  *******************************************************************-->
+
     <!--  *******************************************************************-->
     <section id="utilities2" class="section w3-card-2">
         <header class="w3-container w3-light-grey">

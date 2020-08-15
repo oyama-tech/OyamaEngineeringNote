@@ -1,12 +1,14 @@
 body {
   font-family: "Lato", sans-serif;
+    background-color: #f1eef6;
 }
 
 section {
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 0px;
-  margin-right: 20px;
+  margin-right: 0px;
+  background-color: #ffffff;
 }
 
 /* Fixed sidenav, full height */
@@ -29,7 +31,7 @@ section {
 .sidenav a, .dropdown-btn {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   color: #b1b1b1;    #818181;
   display: block;
   border: none;
@@ -78,18 +80,27 @@ section {
 }
 
 
-.main h2{
-  margin: 0px;
-  margin-left: -50px;
-  margin-right: -50px;
-  padding-left: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
+.titlebar{
   background: linear-gradient(to left, #372556 0%, #776596 100%);
   color: white;
-  font-size: 20px;
+
+  margin-left: -30px;
+  margin-right: -30px;
+
+  padding-top: 10px;
+  height: 50px;
+  line-height: 250%;
 }
+.category{
+  color: white;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.datetime{
+  color: white;
+  font-size: 14px;
+}
+
 .main h3{
   font-size: 16px;
 }
@@ -98,4 +109,15 @@ section {
 }
 .main ul{
   font-size: 14px;
+}
+
+.clock {
+    position: absolute;
+    top: 92%;
+    left: 5%;
+    /* transform: translateX(-50%) translateY(-50%); */
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Lucida Console', 'Courier New';
+    letter-spacing: 7px;
 }
