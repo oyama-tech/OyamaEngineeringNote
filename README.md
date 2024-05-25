@@ -1,4 +1,4 @@
 # EngineeringNote
 Engineering Note
 
-https://hirokioyama-eng.github.io/OyamaEngineeringNote/.
+https://oyama-tech.github.io/OyamaEngineeringNote/.
